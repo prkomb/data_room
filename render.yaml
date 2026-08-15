@@ -6,6 +6,7 @@ services:
     region: frankfurt
     buildCommand: >-
       npm install &&
+      npx prisma generate --schema apps/api/prisma/schema.prisma &&
       npm run build -w packages/shared &&
       npm run build -w apps/api &&
       npx prisma migrate deploy --schema apps/api/prisma/schema.prisma

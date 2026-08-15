@@ -9,7 +9,7 @@ A virtual data room for due-diligence document sharing — folders, files, and g
 - **Auth**: email/password (bcrypt + JWT) and Google Sign-In (ID-token verification)
 - **Shared types**: `packages/shared` — DTOs used by both apps so the API contract can't silently drift
 
-**Hosted URLs**: _frontend: TBD (Vercel) · backend: TBD (Render)_
+**Hosted URLs**: frontend: https://data-room-api-cyan.vercel.app · backend: https://data-room-api-w80t.onrender.com
 
 ---
 
